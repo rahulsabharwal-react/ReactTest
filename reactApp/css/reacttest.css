@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.form-group {
+  display: block !important;
+}
+
+
+label {
+  color: white;
+  justify-content: left !important;
+}
+
+body {
+  margin: 0;
+  background: black;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: #848c91;
+  border: #848c91;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-inline button:hover {
+  background-color: #808080b5;
+}
+
+.header {
+  background: #40454b;
+  color: #b4b4b5;
+  margin: 0;
+}
+
+.text-red {
+  color: red;
+}
+
+.thankyou-box {
+  margin: 150px auto;
+  text-align: center;
+  color: white;
+}
+
+@media (min-width: 576px) {
+  .thankyou-box {
+    margin: 200px auto;
+  }
+}

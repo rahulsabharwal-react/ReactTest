@@ -1,0 +1,3 @@
+export var Routes = {
+    HOME:'/'
+};
