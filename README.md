@@ -40,6 +40,9 @@
 
   - This is node express application. This app exposes the end point for react app to submit the user subscribe form and then further calls the [reacttestform - external api](https://ckzvgrbymezqegu.form.io/reacttestform/submission) to submit the form.
 
+###### The application does not include any unit test cases considering time constraints and more focus has been given to structure the application to enterprise release level.
+###### For more info, please refer to the [ReactTest.docx](https://github.com/rahulsabharwal-react/ReactTest) file in the repository
+
 
 ## This application needs Node 9.10 or higher version to run.
   
