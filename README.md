@@ -36,11 +36,13 @@
  - **css** - style sheet are placed in this folder
  
  
+ 
  ## server
 
   - This is node express application. This app exposes the end point for react app to submit the user subscribe form and then further calls the [reacttestform - external api](https://ckzvgrbymezqegu.form.io/reacttestform/submission) to submit the form.
 
 ###### The application does not include any unit test cases considering time constraints and more focus has been given to structure the application to enterprise release level.
+###### The application uses bootstrap 4 css cdn link. (Not the react bootstrap component library)
 ###### For more info, please refer to the [ReactTest.docx](https://github.com/rahulsabharwal-react/ReactTest) file in the repository
 
 
