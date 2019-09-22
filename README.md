@@ -9,12 +9,13 @@
  - In your terminal, navigate to the api directory.
  - Run npm install to install all dependencies.
  - Run npm start to start the app.
+ - Navigate to http://localhost:4000 to verify node app is running. You should see a message in browser **Welcome to React Test API!**
  
 ## How to run the Client
  - In another terminal, navigate to the client directory.
  - Run npm install to install all dependencies.
  - Run npm start to start the app
- 
+ - Navigate to http://localhost:3000 to visit the Subscribe form
  
  ## reactAPP
  
