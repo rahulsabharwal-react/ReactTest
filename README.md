@@ -10,6 +10,7 @@
  - Run npm install to install all dependencies.
  - Run npm start to start the app.
  - Navigate to http://localhost:4000 to verify node app is running. You should see a message in browser **Welcome to React Test API!**
+ - Run npm test to run unit test cases
  
 ## How to run the Client
  - In another terminal, navigate to the client directory.
@@ -41,10 +42,32 @@
 
   - This is node express application. This app exposes the end point for react app to submit the user subscribe form and then further calls the [reacttestform - external api](https://ckzvgrbymezqegu.form.io/reacttestform/submission) to submit the form.
 
-###### The application does not include any unit test cases considering time constraints and more focus has been given to structure the application to enterprise release level.
+###### The focus has been given to structure the application to enterprise release level.
 ###### The application uses bootstrap 4 css cdn link. (Not the react bootstrap component library)
 ###### For more info, please refer to the [ReactTest.docx](https://github.com/rahulsabharwal-react/ReactTest) file in the repository
 
+### Basic unit test coverage:
+  **subscribeActions**
+ - success has the correct type
+ - success has the correct payload
+ - error has the correct type
+ - error has the correct payload
+
+**Subscribe Form**
+ - shows User Form
+ - shows Submit Form button
+ - shows empty Email message
+ - shows empty Invalid Email message
+ - shows empty First name message
+ - shows empty Last name message
+ - shows empty Invalid mobile message
+ - shows Thank you page
+
+**Subscribe Reducer**
+ - handles action with unknown type
+ - SUBMIT_SUBSCRIBE_FORM_SUCCESS
+
+  14 passing (82ms)
 
 ## This application needs Node 9.10 or higher version to run.
   
