@@ -9,7 +9,7 @@ class App extends React.Component {
         return (
             <Router className="container-fluid">
                 <Switch>                    
-                    <Route path={Routes.HOME} component={SubscribePage} exact />
+                    <Route path={Routes.HOME} component={SubscribePage} />
                 </Switch>
             </Router>
         );

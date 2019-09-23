@@ -27,7 +27,7 @@ module.exports = (env) => {
 
     config.entry =
         {
-            'mainReact.min': path.join(__dirname, "index.js")
+            'mainReact.min': path.join(__dirname, "src/index.js")
         };
     config.output = {
         path: __dirname,
