@@ -7,7 +7,7 @@ describe('Subscribe Form', () => {
     beforeEach(() => {
         component = renderComponent(App);
     });
-
+//This is a template to present how I would write the unit test cases for the component with various cases
     it('shows User Form', () => {
     });
     it('shows Submit Form button', () => {
